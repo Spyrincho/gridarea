@@ -69,7 +69,7 @@ footer {
   padding: 2em;
 }
 
-@media screen and (min-width:999px;) {
+@media screen and (min-width:999px){
   body {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -83,7 +83,7 @@ footer {
       "img ni"
       "aside ti"
       "foot foot";
-  }
+}}
 
   .img {
     background-image: url('img/suicide2.jpg');
@@ -97,7 +97,7 @@ footer {
     grid-area: head;
   }
 
-  .ne {
+  .en {
     grid-area: ne;
   }
 
@@ -147,8 +147,8 @@ footer {
     display: grid;
     grid-template-columns: 1fr auto;
   }
-}
-@media screen and (min-width: 1px) {
+} 
+@media screen and (min-width: 1px){
   body {
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-areas:
@@ -162,5 +162,4 @@ footer {
       "ni ni aside"
       "ti ti aside"
       "foot foot foot";
-  }
-}
+  }}
